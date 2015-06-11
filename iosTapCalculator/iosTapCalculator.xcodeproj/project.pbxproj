@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7CAD2311B29BC2A000CED36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CAD2301B29BC2A000CED36 /* main.m */; };
+		F7CAD2341B29BC2A000CED36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CAD2331B29BC2A000CED36 /* AppDelegate.m */; };
+		F7CAD2371B29BC2A000CED36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CAD2361B29BC2A000CED36 /* ViewController.m */; };
+		F7CAD23A1B29BC2A000CED36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CAD2381B29BC2A000CED36 /* Main.storyboard */; };
+		F7CAD23C1B29BC2A000CED36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CAD23B1B29BC2A000CED36 /* Images.xcassets */; };
+		F7CAD23F1B29BC2A000CED36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CAD23D1B29BC2A000CED36 /* LaunchScreen.xib */; };
+		F7CAD24B1B29BC2A000CED36 /* iosTapCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CAD24A1B29BC2A000CED36 /* iosTapCalculatorTests.m */; };
+		F7CAD2571B29BC7C000CED36 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CAD2551B29BC7C000CED36 /* TipViewController.m */; };
+		F7CAD2581B29BC7C000CED36 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CAD2561B29BC7C000CED36 /* TipViewController.xib */; };
+		F7CAD25C1B29CBF0000CED36 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CAD25A1B29CBF0000CED36 /* SettingsViewController.m */; };
+		F7CAD25D1B29CBF0000CED36 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7CAD25B1B29CBF0000CED36 /* SettingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7CAD2451B29BC2A000CED36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7CAD2231B29BC2A000CED36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7CAD22A1B29BC2A000CED36;
+			remoteInfo = iosTapCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7CAD22B1B29BC2A000CED36 /* iosTapCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTapCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CAD22F1B29BC2A000CED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CAD2301B29BC2A000CED36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7CAD2321B29BC2A000CED36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7CAD2331B29BC2A000CED36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7CAD2351B29BC2A000CED36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7CAD2361B29BC2A000CED36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7CAD2391B29BC2A000CED36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7CAD23B1B29BC2A000CED36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7CAD23E1B29BC2A000CED36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7CAD2441B29BC2A000CED36 /* iosTapCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosTapCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CAD2491B29BC2A000CED36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CAD24A1B29BC2A000CED36 /* iosTapCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosTapCalculatorTests.m; sourceTree = "<group>"; };
+		F7CAD2541B29BC7C000CED36 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		F7CAD2551B29BC7C000CED36 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		F7CAD2561B29BC7C000CED36 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
+		F7CAD2591B29CBF0000CED36 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F7CAD25A1B29CBF0000CED36 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F7CAD25B1B29CBF0000CED36 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CAD2281B29BC2A000CED36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CAD2411B29BC2A000CED36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CAD2221B29BC2A000CED36 = {
+			isa = PBXGroup;
+			children = (
+				F7CAD22D1B29BC2A000CED36 /* iosTapCalculator */,
+				F7CAD2471B29BC2A000CED36 /* iosTapCalculatorTests */,
+				F7CAD22C1B29BC2A000CED36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CAD22C1B29BC2A000CED36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAD22B1B29BC2A000CED36 /* iosTapCalculator.app */,
+				F7CAD2441B29BC2A000CED36 /* iosTapCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CAD22D1B29BC2A000CED36 /* iosTapCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAD2321B29BC2A000CED36 /* AppDelegate.h */,
+				F7CAD2331B29BC2A000CED36 /* AppDelegate.m */,
+				F7CAD2351B29BC2A000CED36 /* ViewController.h */,
+				F7CAD2361B29BC2A000CED36 /* ViewController.m */,
+				F7CAD2381B29BC2A000CED36 /* Main.storyboard */,
+				F7CAD23B1B29BC2A000CED36 /* Images.xcassets */,
+				F7CAD23D1B29BC2A000CED36 /* LaunchScreen.xib */,
+				F7CAD22E1B29BC2A000CED36 /* Supporting Files */,
+				F7CAD2541B29BC7C000CED36 /* TipViewController.h */,
+				F7CAD2551B29BC7C000CED36 /* TipViewController.m */,
+				F7CAD2561B29BC7C000CED36 /* TipViewController.xib */,
+				F7CAD2591B29CBF0000CED36 /* SettingsViewController.h */,
+				F7CAD25A1B29CBF0000CED36 /* SettingsViewController.m */,
+				F7CAD25B1B29CBF0000CED36 /* SettingsViewController.xib */,
+			);
+			path = iosTapCalculator;
+			sourceTree = "<group>";
+		};
+		F7CAD22E1B29BC2A000CED36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAD22F1B29BC2A000CED36 /* Info.plist */,
+				F7CAD2301B29BC2A000CED36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7CAD2471B29BC2A000CED36 /* iosTapCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAD24A1B29BC2A000CED36 /* iosTapCalculatorTests.m */,
+				F7CAD2481B29BC2A000CED36 /* Supporting Files */,
+			);
+			path = iosTapCalculatorTests;
+			sourceTree = "<group>";
+		};
+		F7CAD2481B29BC2A000CED36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CAD2491B29BC2A000CED36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CAD22A1B29BC2A000CED36 /* iosTapCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CAD24E1B29BC2A000CED36 /* Build configuration list for PBXNativeTarget "iosTapCalculator" */;
+			buildPhases = (
+				F7CAD2271B29BC2A000CED36 /* Sources */,
+				F7CAD2281B29BC2A000CED36 /* Frameworks */,
+				F7CAD2291B29BC2A000CED36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosTapCalculator;
+			productName = iosTapCalculator;
+			productReference = F7CAD22B1B29BC2A000CED36 /* iosTapCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7CAD2431B29BC2A000CED36 /* iosTapCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CAD2511B29BC2A000CED36 /* Build configuration list for PBXNativeTarget "iosTapCalculatorTests" */;
+			buildPhases = (
+				F7CAD2401B29BC2A000CED36 /* Sources */,
+				F7CAD2411B29BC2A000CED36 /* Frameworks */,
+				F7CAD2421B29BC2A000CED36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7CAD2461B29BC2A000CED36 /* PBXTargetDependency */,
+			);
+			name = iosTapCalculatorTests;
+			productName = iosTapCalculatorTests;
+			productReference = F7CAD2441B29BC2A000CED36 /* iosTapCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CAD2231B29BC2A000CED36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Anson Ng";
+				TargetAttributes = {
+					F7CAD22A1B29BC2A000CED36 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F7CAD2431B29BC2A000CED36 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F7CAD22A1B29BC2A000CED36;
+					};
+				};
+			};
+			buildConfigurationList = F7CAD2261B29BC2A000CED36 /* Build configuration list for PBXProject "iosTapCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7CAD2221B29BC2A000CED36;
+			productRefGroup = F7CAD22C1B29BC2A000CED36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CAD22A1B29BC2A000CED36 /* iosTapCalculator */,
+				F7CAD2431B29BC2A000CED36 /* iosTapCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CAD2291B29BC2A000CED36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CAD23A1B29BC2A000CED36 /* Main.storyboard in Resources */,
+				F7CAD23F1B29BC2A000CED36 /* LaunchScreen.xib in Resources */,
+				F7CAD2581B29BC7C000CED36 /* TipViewController.xib in Resources */,
+				F7CAD23C1B29BC2A000CED36 /* Images.xcassets in Resources */,
+				F7CAD25D1B29CBF0000CED36 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CAD2421B29BC2A000CED36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CAD2271B29BC2A000CED36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CAD2371B29BC2A000CED36 /* ViewController.m in Sources */,
+				F7CAD2341B29BC2A000CED36 /* AppDelegate.m in Sources */,
+				F7CAD25C1B29CBF0000CED36 /* SettingsViewController.m in Sources */,
+				F7CAD2571B29BC7C000CED36 /* TipViewController.m in Sources */,
+				F7CAD2311B29BC2A000CED36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CAD2401B29BC2A000CED36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CAD24B1B29BC2A000CED36 /* iosTapCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7CAD2461B29BC2A000CED36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7CAD22A1B29BC2A000CED36 /* iosTapCalculator */;
+			targetProxy = F7CAD2451B29BC2A000CED36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7CAD2381B29BC2A000CED36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CAD2391B29BC2A000CED36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7CAD23D1B29BC2A000CED36 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CAD23E1B29BC2A000CED36 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7CAD24C1B29BC2A000CED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7CAD24D1B29BC2A000CED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CAD24F1B29BC2A000CED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iosTapCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7CAD2501B29BC2A000CED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iosTapCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7CAD2521B29BC2A000CED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iosTapCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosTapCalculator.app/iosTapCalculator";
+			};
+			name = Debug;
+		};
+		F7CAD2531B29BC2A000CED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iosTapCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosTapCalculator.app/iosTapCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CAD2261B29BC2A000CED36 /* Build configuration list for PBXProject "iosTapCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CAD24C1B29BC2A000CED36 /* Debug */,
+				F7CAD24D1B29BC2A000CED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CAD24E1B29BC2A000CED36 /* Build configuration list for PBXNativeTarget "iosTapCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CAD24F1B29BC2A000CED36 /* Debug */,
+				F7CAD2501B29BC2A000CED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CAD2511B29BC2A000CED36 /* Build configuration list for PBXNativeTarget "iosTapCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CAD2521B29BC2A000CED36 /* Debug */,
+				F7CAD2531B29BC2A000CED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CAD2231B29BC2A000CED36 /* Project object */;
+}

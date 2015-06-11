@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C92EA5C-69D5-48C0-9F7D-23DDDB825614</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>291F8993BCC941C76E100DF4F72F322B0E2BDE30</key>
+		<string>github.com:cwnga/iosTapCalculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iosTapCalculator/iosTapCalculator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>291F8993BCC941C76E100DF4F72F322B0E2BDE30</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:cwnga/iosTapCalculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>291F8993BCC941C76E100DF4F72F322B0E2BDE30</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>291F8993BCC941C76E100DF4F72F322B0E2BDE30</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosTapCalculator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
